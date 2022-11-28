@@ -35,7 +35,7 @@ module.exports = async function (context, eventGridEvent, inputBlob) {
   Jimp.read(inputBlob).then((image) => {
     image.cover(IMAGE_SIZE, IMAGE_SIZE);
 
-    thumbnail.getBuffer(jimpMimetype, async (err, buffer) => {
+    image.getBuffer(jimpMimetype, async (err, buffer) => {
       const readStream = stream.PassThrough();
       readStream.end(buffer);
 
