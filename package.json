@@ -1,24 +1,16 @@
 {
-  "name": "function-image-upload-resize-node",
+  "name": "products-images-resize-function",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
     "@azure/storage-blob": "^12.6.0",
-    "jimp": "^0.2.28"
+    "jimp": "^0.2.28",
+    "mime-types": "^2.1.35"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Azure-Samples/function-image-upload-resize-node.git"
-  },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Azure-Samples/function-image-upload-resize-node/issues"
-  },
-  "homepage": "https://github.com/Azure-Samples/function-image-upload-resize-node#readme"
+  "license": "ISC"
 }
