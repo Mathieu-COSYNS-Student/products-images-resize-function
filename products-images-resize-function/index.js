@@ -1,4 +1,5 @@
 const Jimp = require('jimp');
+const mime = require('mime-types');
 const stream = require('stream');
 const { BlockBlobClient } = require('@azure/storage-blob');
 
